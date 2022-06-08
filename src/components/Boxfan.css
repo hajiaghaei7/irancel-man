@@ -1,0 +1,64 @@
+.flexx{
+height: 96px;
+width: 260px;
+background-color:white;
+border-radius: 25px;
+margin: 20px;
+
+}
+.dayer-yeloow{
+    height: 60px;
+    width: 60px;
+    background-color:rgb(216, 235, 46);
+    border-radius: 25px;
+    float: right;
+    overflow:hidden;
+     margin: 10px;
+}
+.dayer-yeloow-child{
+    height: 45px;
+    width: 45px;
+    border-radius: 30px;
+   border-style: solid;
+border-color: rgb(126, 119, 231);
+margin: 5px;
+    
+}
+.text-name{
+    height:auto;
+    width:auto;
+font-size: 15px;  
+float:left; 
+overflow:hidden; 
+text-align: center;
+margin: 17px;
+}
+
+.kol{
+width:290px;
+height: 700px;
+background-color: darkmagenta;
+float: left;
+overflow: hidden;
+}
+.kol1{
+    width: 400px;
+    height: 700px;
+    background-color: rgb(21, 84, 179);
+    float: left;
+    overflow: hidden;
+    }
+    .kol2{
+        width:300px;
+        height: 700px;
+        background-color: rgb(26, 179, 21);
+        float: left;
+        overflow: hidden;
+        }
+        .imge-profile{
+            width: 42px;
+            height: 42px;
+            text-align: center;
+        }
+        .text-page-asli{
+            text-align:right; margin: 5px;        }

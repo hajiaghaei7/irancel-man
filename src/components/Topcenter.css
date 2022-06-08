@@ -1,0 +1,24 @@
+.flex1{
+    height: 170px;
+    width: 380px;
+    background-color: yellow;
+
+    border-radius: 10%;
+    margin: 10px;
+    
+}
+.flex1-child{
+    height: 170px;
+    width: 380px;
+    border-radius: 10%;
+    background-image: url('./img/MyIrancellcentear.jpg');
+    background-size: cover;
+    opacity: 0.5;
+    
+}
+.tx-h1{
+  
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+opacity:1.0;
+float: left;
+}
