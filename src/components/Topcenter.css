@@ -9,11 +9,12 @@
 }
 .flex1-child{
     height: 170px;
-    width: 380px;
+    width: 100%;
     border-radius: 10%;
     background-image: url('./img/MyIrancellcentear.jpg');
     background-size: cover;
     opacity: 0.5;
+
     
 }
 .tx-h1{

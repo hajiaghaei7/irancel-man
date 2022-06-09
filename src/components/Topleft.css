@@ -5,17 +5,28 @@
     border-radius: 25px;
     float: right;
     overflow:hidden;
-     margin: 10px;
+
+     background-image: url('./img/iconir.png');
+     background-size:cover;
+     
+     background-repeat: no-repeat;
+     
 }
+
 .logo-right{
-    height: 40px;
-    width: 200px;
+    height:20px;
+    width: 180px;
     border-radius: 30px; 
     float: right;
     background-color:yellow;
     text-align: center;
-    margin: 10px;
+    margin: 6px;
     padding-bottom: 20px;
+    font-style:oblique;
+    overflow: hidden;
+   direction: rtl;
+ 
+ 
 }
 .b{
     border: none;
@@ -23,18 +34,93 @@ outline: none;
 padding: 10px;
 }
 .div-search{
-    border: solid;
+    
     background-color: white;
-    float: left;
-    height: 50px;
-    width: 110px;
+   
+    height: auto;
+    width: auto;
     overflow: hidden;
-}
+    border-radius: 10px;
+   margin: 15px;
+   direction: rtl;
+    }
 .search-bot{
 background-image: url('./img/search.png');
 height: 40px;
 width: 40px;
-float: right;
+background-size: cover;
+float:left;
 overflow: hidden;
 cursor: pointer;
+border: 0cm;
+background-color: white;
+
+}
+.centertop{
+    height: auto;
+    width: auto;
+    margin: 10px;
+    padding-bottom: 10px;
+   background-color: coral;
+    overflow: hidden;
+}
+.txt-irancel-man{
+ margin-top:6%;
+}
+.berder-search{
+    border: 4px;
+    outline: none;
+padding: 10px;
+}
+
+.div-menu{
+  background-color: brown;
+
+  overflow: hidden;
+
+
+}
+
+.div-p{
+    float: right;
+    overflow: hidden;
+ direction: rtl;
+
+margin: 7px;
+margin-right: 1px;
+
+ 
+}
+
+.txt-p{
+   
+    overflow: hidden;
+ direction: rtl;
+margin: 7px;
+ font-size: 15px;
+ font-style: bold;
+ 
+}
+.div-menu-joda{
+    height: auto;
+    width: auto;
+    float: right;
+        overflow: hidden;
+ direction: rtl;
+ margin-top: 5%;
+ font-size: 15px;
+ font-style: bold;
+ margin: 7px;
+
+}
+.ax{
+    height: 25px;
+    width: 25px;
+
+}
+.div-menu1{
+    height: auto;
+    width: auto;
+    overflow: hidden;
+    margin-top: 25px;
 }
