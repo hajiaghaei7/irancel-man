@@ -7,6 +7,9 @@ import { Nchart } from './Nchart';
 import { Topcenter } from './Topcenter';
 import userr from './img/userr.png';
 import { Topleft } from './Topleft';
+import { Table } from './Table';
+import './Chartline';
+
 
 
 export const Boxfan = () => {
@@ -38,7 +41,16 @@ export const Boxfan = () => {
       
         <div className="kol1">
         <h4 className="text-page-asli">صفحه اصلی</h4>  <Topcenter/>
+
+
+
+
+        
+        <div  className="center-bottom"><Table/></div>
+       <div><canvas id="myChart" width="400" height="400"></canvas></div>
+    
         </div>
+        
         <div className="kol2"><Topleft/></div>
        
         </div>
