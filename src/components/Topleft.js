@@ -8,11 +8,10 @@ import khadamat from './img/khadamat.png';
 import msim from './img/msim.png';
 import questions from './img/questions.png';
 import location from './img/location.png';
-<script  type="txt/javascript">
+import khadam from './img/khadam.png';
+import karkard from './img/karkard.png';
 
 
-
-</script>
 
 
 export const Topleft = () => {
@@ -49,7 +48,7 @@ export const Topleft = () => {
      </div>
      <div className="div-menu">
      <div className="div-menu-joda">
-              <p className="txt-p">سرویس ها</p>
+              <p className="txt-p1">سرویس ها</p>
             </div>
      </div>
 
@@ -72,10 +71,30 @@ export const Topleft = () => {
               اینترنت
               </p>
      </div>
+
+     <div className="div-menu">
+            <div className="div-menu-joda">
+              <img className="ax" src={karkard}/>
+             
+            </div>
+            <p className="txt-p">
+            کارکرد فروش
+              </p>
+     </div>
          
      <div className="div-menu">
+            <div className="div-menu-joda">
+              <img className="ax" src={khadam}/>
+             
+            </div>
+            <p className="txt-p">
+             خدمات
+              </p>
+     </div>
+
+     <div className="div-menu">
      <div className="div-menu-joda">
-              <p className="txt-p">
+              <p className="txt-p1">
                 مدیریت        </p>
             </div>
      </div>

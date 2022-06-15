@@ -20,7 +20,7 @@ margin: 20px;
     width: 45px;
     border-radius: 30px;
    border-style: solid;
-border-color: rgb(246, 245, 252);
+border-color: rgb(58, 28, 224);
 margin: 5px;
     
 }
@@ -35,26 +35,13 @@ margin: 17px;
 }
 
 .kol{
-width:290px;
-height: 700px;
-background-color:rgb(246, 245, 252);
+width:auto;
+height: 1000px;
+background-color:rgb(227, 227, 233);
 float: left;
 overflow: hidden;
 }
-.kol1{
-    width: 400px;
-    height: 700px;
-    background-color: rgb(246, 245, 252);
-    float: left;
-    overflow: hidden;
-    }
-    .kol2{
-        width:300px;
-        height: 700px;
-        background-color:rgb(246, 245, 252);
-        float: left;
-        overflow: hidden;
-        }
+
         .imge-profile{
             width: 42px;
             height: 42px;
@@ -67,7 +54,7 @@ overflow: hidden;
             }
 
             .d1{
-                height:200px;
-                width: 400px;
+                height:400px;
+                width:600px;
                 background-color:rgb(246, 245, 252);
             }

@@ -8,9 +8,6 @@ import { Topcenter } from './Topcenter';
 import userr from './img/userr.png';
 import { Topleft } from './Topleft';
 import { Table } from './Table';
-import LineChart from './Chartline';
-
-
 
 export const Boxfan = () => {
   return (
@@ -37,24 +34,28 @@ export const Boxfan = () => {
 </div> 
 <Nchart/>
 
+
         </div>
       
-        <div className="kol1">
+        <div className="kol">
         <h4 className="text-page-asli">صفحه اصلی</h4>  <Topcenter/>
 
 
 
 
-        
-        <div  className="center-bottom"><Table/></div>
-       <div className="d1">
+        <div className="d1" >
+     
+  
       
-         <LineChart/>
-        </div>
-        
-        <div className="kol2"><Topleft/></div>
+      </div>
+        <div  className="center-bottom"><Table/></div>
+      
+     
+    
        
         </div>
+      
+        <div className="kol"><Topleft/></div>
         </div>
         
   )

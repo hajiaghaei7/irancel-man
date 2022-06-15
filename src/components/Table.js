@@ -7,14 +7,18 @@ export const Table = () => {
 
         <table className="table">
             <tr>
-               <th>قیمیت</th>
+            <th></th>
+                
+               <th>قیمیت</th> 
                <th>تخفیف</th>
                <th>نام بسته</th> 
                <th>تاریخ انقضا بسته</th> 
-               <th></th> 
+              
+               
             </tr>
-            <hr/>
+           
             <tr>
+                <td><div className="div-bot"><p className="p-text">خرید</p></div></td>
                 <td>١٣٠،٠٠٠ </td>
                 <td>٢٠% </td>
                 <td>بسته اینترنت سه ماهه</td>
@@ -22,13 +26,14 @@ export const Table = () => {
                 
             </tr>
             <tr>
+            <td><div className="div-bot"><p className="p-text">خرید</p></div></td>
                 <td>٤٥،٠٠٠ </td>
                 <td>٤٥% </td>
                 <td>بسته ترکیبی هفته ای</td>
                 <td>١٣ خرداد١٤٠١ </td>
             </tr>
             <tr>
-               
+            <td><div className="div-bot"><p className="p-text">خرید</p></div></td>
                 <td>٥٠،٠٠٠ </td>
                 <td>١٥% </td>
                 <td>بسته اینترنت یک ماهه</td>

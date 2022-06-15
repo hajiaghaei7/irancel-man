@@ -35,7 +35,7 @@ padding: 10px;
 }
 .div-search{
     
-    background-color: white;
+    background-color:white;
    
     height: auto;
     width: auto;
@@ -53,7 +53,7 @@ float:left;
 overflow: hidden;
 cursor: pointer;
 border: 0cm;
-background-color: white;
+background-color:white;
 
 }
 .centertop{
@@ -61,7 +61,7 @@ background-color: white;
     width: auto;
     margin: 10px;
     padding-bottom: 10px;
-   background-color: coral;
+   background-color:rgb(227, 227, 233);
     overflow: hidden;
 }
 .txt-irancel-man{
@@ -74,7 +74,7 @@ padding: 10px;
 }
 
 .div-menu{
-  background-color: brown;
+  background-color: rgb(227, 227, 233);
 
   overflow: hidden;
 
@@ -101,6 +101,21 @@ margin: 7px;
  font-style: bold;
  
 }
+
+.txt-p:hover{
+    cursor: pointer;
+    color: rgb(231, 164, 18);
+}
+
+
+.txt-p1{
+    overflow: hidden;
+    direction: rtl;
+   margin: 7px;
+    font-size: 15px;
+    font-style: bold;
+}
+
 .div-menu-joda{
     height: auto;
     width: auto;
