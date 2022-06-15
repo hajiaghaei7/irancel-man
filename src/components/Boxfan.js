@@ -8,7 +8,7 @@ import { Topcenter } from './Topcenter';
 import userr from './img/userr.png';
 import { Topleft } from './Topleft';
 import { Table } from './Table';
-import './Chartline';
+import LineChart from './Chartline';
 
 
 
@@ -47,12 +47,14 @@ export const Boxfan = () => {
 
         
         <div  className="center-bottom"><Table/></div>
-       <div><canvas id="myChart" width="400" height="400"></canvas></div>
-    
+       <div className="d1">
+      
+         <LineChart/>
         </div>
         
         <div className="kol2"><Topleft/></div>
        
+        </div>
         </div>
         
   )
