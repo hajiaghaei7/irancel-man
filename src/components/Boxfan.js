@@ -8,6 +8,9 @@ import { Topcenter } from './Topcenter';
 import userr from './img/userr.png';
 import { Topleft } from './Topleft';
 import { Table } from './Table';
+import LineChart from './Charts';
+import ChartLine from './Charts';
+
 
 export const Boxfan = () => {
   return (
@@ -38,15 +41,13 @@ export const Boxfan = () => {
         </div>
       
         <div className="kol">
+
         <h4 className="text-page-asli">صفحه اصلی</h4>  <Topcenter/>
-
-
 
 
         <div className="d1" >
      
-  
-      
+      <ChartLine/>
       </div>
         <div  className="center-bottom"><Table/></div>
       

@@ -54,7 +54,12 @@ overflow: hidden;
             }
 
             .d1{
-                height:400px;
-                width:600px;
-                background-color:rgb(246, 245, 252);
+                height:auto;
+                width:auto;
+                background-color: white;
+                border-radius: 4%;
+                padding: 5px;
+                margin: 10px;
+                margin-bottom: 10px;
             }
+            

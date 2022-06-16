@@ -3,8 +3,8 @@ import './Table.css';
 
 export const Table = () => {
   return (
-    <div>
-
+    <div className="divkol">
+<p className="p-tx"> بسته های پیشنهادی مخصوص شما</p>
         <table className="table">
             <tr>
             <th></th>

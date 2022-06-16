@@ -2,6 +2,7 @@
     border: 2px;
     border-style: solid;
     width: 100%;
+    border-radius: 10%;
 }
 .div-bot{
     height: auto;
@@ -18,4 +19,13 @@ background-color: rgb(238, 157, 64);
 }
 .p-text{
    color: white;
+}
+.p-tx{
+    text-align: right;
+}
+.divkol{
+    background-color: white;
+    border-radius: 4%;
+    padding: 5px;
+     margin-top: 10px;
 }
