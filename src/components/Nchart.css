@@ -1,7 +1,7 @@
 .div-sharj{
-    height: 300px;
-    width: 260px;
-    background-color:rgb(223, 195, 37);
+    height: auto;
+    width: auto;
+    background-color:rgb(230, 223, 187);
     margin: 20px;
     padding-top: 10px;
 
@@ -10,9 +10,30 @@
     .text{
         height:auto;
         width:auto;
-    font-size: 15px;  
-   
+    
     text-align: center;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
        
+}
+.img-sharj{
+    height: 200px;
+    width:200px;
+    background-color:rgb(230, 223, 187);
+    margin: 20px;
+   
+
+}
+.div-mos{
+    height: auto;
+    width: auto;
+    background-color :darkorange;
+    left:0;
+    text-align: center;
+   
+
+}
+.tx-h5{
+    color:white;
+    text-align: center;
+    padding: 5px;
 }

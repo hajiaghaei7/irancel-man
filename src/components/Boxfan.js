@@ -23,7 +23,7 @@ export const Boxfan = () => {
 <div className="dayer-yeloow-child"><img className="imge-profile"  src={userr}/></div>
 </div>
 <div className="text-name">سلام هاله حاجی آقایی
-<hr/>
+<br/>
 +98 12345678
 </div>
 
